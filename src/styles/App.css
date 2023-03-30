@@ -1,0 +1,157 @@
+.App {
+  margin: auto;
+}
+
+/*header*/
+
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 60px;
+  
+}
+/* left */
+.left {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn_header {
+  width: 40px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: transparent;
+}
+.btn_header:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+.btn_menu_img {
+  width: 25px;
+}
+.ImgMenu {
+  width: 20px;
+}
+/* center */ 
+.center {
+  width: 40%;
+  height: 40px;
+  
+}
+
+.searchBar {
+  width: 70%;
+  height: 38px;
+  border-radius: 20px 0px 0px 20px;
+  border: solid darkgrey 1px;
+  padding-left: 3%;
+  margin-left: 5%;
+}
+
+.loup {
+height: 42px;
+width: 60px;
+border-radius: 0px 20px 20px 0px;
+border: solid darkgrey 1px;
+}
+.loup:hover {
+  background-color: lightgray;
+  cursor: pointer;
+}
+
+.vocal {
+  margin-left: 15px;
+  background-color: aliceblue;
+  }
+
+/*right*/
+.right {
+  width: 200px;
+  display: flex;
+  justify-content: space-around;
+}
+
+    /* Navigation */
+
+#nav {
+  width: 14%;
+  height: 100%;
+  border-bottom: solid darkgrey 1px;
+}    
+.LinkNav {
+  width: 190px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  padding: 2px 15px 1px 15px ;
+  margin: 5px 10px 5px 15px;
+  border-radius: 15px;
+  text-decoration: none;
+  color: black;
+}
+.LinkNav:hover {
+  background-color: rgb(228, 227, 227);
+  cursor: pointer;
+}
+
+.LinkText {
+  padding: 5px 10px 5px 10px;
+  font-weight: 500;
+}
+
+.firstSection, .secondSection, /*.Subscription,*/ .Explore, .More, .Other, .ParametreAide {
+  border-bottom: solid lightgrey 1px;
+  
+}
+.Footer {
+  width: 70%;
+  padding: 15px 25px 10px 25px;
+
+}
+.FooterLink {
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 3px;
+  text-decoration: none;
+  color: rgb(90, 90, 90);
+}
+.Footer-copyright {
+  color: rgb(150, 148, 148);
+  font-size: 0.7rem;
+}
+
+.MainContent {
+  display: flex;
+}
+
+.VideoSection {
+  width: 90%;
+}
+
+/*Filter bar */
+.FilterBar {
+  height: 60px;
+  
+  display: flex;
+  justify-content: space-around;
+}
+.FilterLink {
+  margin-top: 12px;
+  height: fit-content;
+  padding: 4px 10px 4px 10px;
+  background-color: rgb(236, 236, 236);
+  border-radius: 6px;
+  text-decoration: none;
+  color: black;
+}
+.FilterLink:hover {
+  background-color: rgb(202, 202, 202);
+}
+
+.VideoContent {
+  height: 500px;
+  background-color: aquamarine;
+}
